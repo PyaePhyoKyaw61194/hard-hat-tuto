@@ -13,6 +13,7 @@ contract Counter {
     }
 
     function dec() public {
+        require(count > 0, "Counter: count is below zero");
         count -= 1;
     }
 }
