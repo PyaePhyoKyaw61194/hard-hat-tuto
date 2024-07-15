@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.24;
 
+// Author: @PyaePhyoKyaw61194
 contract Counter {
     uint256 public count;
 

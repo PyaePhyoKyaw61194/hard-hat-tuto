@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import CounterContract from "./../artifacts/contracts/Counter.sol/Counter.json";
 import { ethers } from "ethers";
 
-const contractAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
+const contractAddress = "0xdE1FDB543E7168FAB574075cF00398526b2C9b07";
 const abi = CounterContract.abi;
 
 export default function App() {
